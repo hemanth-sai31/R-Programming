@@ -1,0 +1,5 @@
+a = 5
+b = c("Madhu")
+c = c(1,2,3)
+d = ls.str()
+d
