@@ -1,0 +1,9 @@
+fibonacci <- function(n) {
+  if (n <= 1) {
+    return(n)
+  } else {
+    return(fibonacci(n-1) + fibonacci(n-2))
+  }
+}
+fib_numbers <- sapply(0:10, fibonacci)
+print(fib_numbers)
