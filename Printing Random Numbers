@@ -1,0 +1,2 @@
+random_vectors <- sample(-50:+50,10,replace=TRUE)
+random_vectors
