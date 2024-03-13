@@ -1,0 +1,8 @@
+> name <- readline("Enter Name : ")
+Enter Name : E Akash
+> age <- as.numeric(readline("Enter the age : "))
+Enter the age : 19
+> cat(name,age)
+E Akash 19
+> cat("Name: ",name,"\t"," Age: ",age)
+Name:  E Akash 	  Age:  19
