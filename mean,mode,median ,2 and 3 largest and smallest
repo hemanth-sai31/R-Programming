@@ -1,0 +1,7 @@
+values <- c(90, 50, 70, 80, 70, 60, 20, 30, 80, 90, 20)
+mean_value <- mean(values)
+median_value <- median(values)
+mode_value <- names(table(values))[table(values) == max(table(values))]
+sorted_values <- sort(unique(values), decreasing = TRUE)
+second_highest <- sorted_values[2]
+third_lowest <- sorted_values[3]
