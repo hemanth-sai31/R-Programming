@@ -1,0 +1,7 @@
+first_10_letters <- head(letters, 10)
+first_10_letters_lower <- tolower(first_10_letters)
+print(first_10_letters_lower)
+last_10_letters <- tail(LETTERS, 10)
+print(last_10_letters)
+letters_between_22_and_24 <- LETTERS[22:24]
+print(letters_between_22_and_24)
